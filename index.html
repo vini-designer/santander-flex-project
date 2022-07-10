@@ -3,111 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex Turismos</title>
+    <title>Frases famosas</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>FlexTurismos</h1>
-        <ul>
-            <li><a href="#quem-somos">Quem Somos</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#planos">Planos</a></li>
+    <header class="flex-container ma baseline pr-0">
+        <h1>Frases Famosas</h1>
+        <ul class="container-links mr-0">
+            <li class="mr"><a href="#quem-somos">Destaques</a></li>
+            <li class="mr"><a href="#servicos">Categorias</a></li>
+            <li><a href="#planos">Más accedidos</a></li>
         </ul>
     </header>
 
-    <div>
-        <div>
-            <h1>Flex <br>Turismos</h1>
-            <p>O melhor serviço para você!</p>
-            <a href="">Saiba Mais!</a>
-        </div>
-
-        <div>
-            <div><img src="./images/0-main.png" alt="banner de apresentação"></div>
-        </div>
+    <div class="flex-container ma">
+        <h2>Autores e frases destacados</h2>
     </div>
 
-    <div>
-        <div>
-            <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
+    <div class="grid-right">
+        <div class="text-center">
+            <h3>Jacinto Benavente</h3>
+            <p>"Lo peor que hacen los malos es obligarnos a dudar de los buenos."</p>
         </div>
 
-        <div>
-            <h2>Quem somos</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        <div class="text-center">
+            <img class="foto-autor" src="./images/autor-benavente.jpg" alt="Foto do autor Jacinto Benavente">
         </div>
     </div>
-
-    <div>
-        <div>
-            <h2>Serviços</h2>
+    <div class="grid-left">
+        <div class="text-center">
+            <img class="foto-autor" src="./images/autor-confucio.jpg" alt="Foto do filósofo Confúcio">
         </div>
 
-        <div>
+        <div class="text-center">
+            <h3>Confúcio</h3>
+            <p>"Aprende a vivir y sabrás morir bien."</p>
+        </div>
+    </div>
+    <div class="grid-right">
+        <div class="text-center">
+            <h3>Platón</h3>
+            <p>"La mayor declaración de amor es la que no se hace; el hombre que siente mucho, habla poco."</p>
+        </div>
+    
+        <div class="text-center">
             <div>
-                <div><img src="./images/icon-2.png" alt="hospedagens"></div>
-                <p>Hospedagens</p>
-                <a href="#">Comprar Agora</a>
+                <img class="foto-autor" src="./images/autor-platao.jpg" alt="Foto do filósofo Platão">
             </div>
-
-            <div>
-               <div><img src="./images/icon-1.png" alt="pacote de viagens"></div>
-               <p>Pacotes de viagens</p>
-               <a href="#">Comprar Agora</a>
-            </div>
-
-            <div>
-                <div><img src="./images/icon-3.png" alt="roteiros personalizados"></div>
-                <p>Roteiros personalizados</p>
-                <a href="#">Comprar Agora</a>
-            </div>
-
         </div>
     </div>
 
-    <div>
-
-        <div>
-            <h3>Plano 2</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
+    <div class="flex-container ma">
+        <h2>Categorias</h2>
+    </div>
+    
+    <div class="flex-container ma">
+        <div class="item text-center">
+            <div><i class="fa fa-signature fa-4x"></i></div>
+            <p>Nombre del autor</p>
+            <a href="#">Buscar</a>
         </div>
 
-        <div>
-            <h3>Plano 2</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-                <li>Roteiro de trilhas</li>
-                <li>Serviço personalizado</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
+        <div class="item text-center">
+            <div><i class="fa fa-earth-americas fa-4x"></i></div>
+            <p>Local de origen</p>
+            <a href="#">Buscar</a>
         </div>
 
-        <div>
-            <h3>Plano 3</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-                <li>Roteiro de trilhas</li>
-                <li>Serviço personalizado</li>
-                <li>Área Vip</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
+        <div class="item text-center">
+            <div><i class="fa fa-book fa-4x"></i></div>
+            <p>Área del conocimento</p>
+            <a href="#">Buscar</a>
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2021 CSS Flexbox</p>
-        <p>Desenvolvido por: Seu nome aqui dev</p>
+    <div class="flex-container ma">
+        <h2 style="margin-bottom: 0;">Contenidos más accedidos</h2>
+    </div>
+
+    <div class="container-bottom ma">
+        <div class="item">
+            <h3>Autores</h3>
+            <ol>
+                <li>Aristóteles</li>
+                <li>Platón</li>
+                <li>Confúcio</li>
+                <li>Nietzsche</li>
+                <li>Foucault</li>
+            </ol>
+            <a href="#">Ver lista completa</a>
+        </div>
+
+        <div class="item">
+            <h3>Localidades</h3>
+            <ol>
+                <li>Francia</li>
+                <li>Alemania</li>
+                <li>Estados Unidos</li>
+                <li>Brasil</li>
+                <li>España</li>
+            </ol>
+            <a href="#">Ver lista completa</a>
+        </div>
+
+        <div class="item">
+            <h3>Áreas del conocimiento</h3>
+            <ol>
+                <li>Filosofia</li>
+                <li>Literatura</li>
+                <li>Matemática</li>
+                <li>Artes</li>
+                <li>Física</li>
+            </ol>
+            <a href="#">Ver lista completa</a>
+        </div>
+    </div>
+
+    <footer class="flex-container ma">
+        <p>Desarrollado por Vinícius Oliveira</p>
     </footer>
 </body>
 </html>

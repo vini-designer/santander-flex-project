@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fondamento', cursive;
+    font-size: 1.33em;
+}
+
+header {
+    background-color: darkred;
+    color: white;
+    /*height: 100px;*/
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+ol {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul > li {
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+}
+
+.pr-0 {
+    padding-right: 0px;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    margin:0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 992px;
+    padding: 15px 15px 15px 15px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container-links {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.container-bottom {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    max-width: 992px;
+    width: 100%;    
+    align-content:space-around;
+    margin:auto;
+}
+
+h2 {
+    display: flex;
+}
+
+h2::before {
+    content: "";
+    width: 5px;
+    background-color: darkred;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
+.ma {
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: center;
+}
+
+.text-left {
+    text-align: center;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.item {
+    flex-grow: 1;
+    margin-bottom: 30px;
+}
+
+.item > a {
+    text-decoration: none;
+    color: red;
+}
+
+.item > a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+i {
+    color: darkred;
+}
+
+.foto {
+    border: 1px solid black;
+    flex-grow: 500px;
+    flex-shrink: 500px;
+}
+
+.citacao {
+    border: 1px solid black;
+    flex-grow: 2;
+}
+
+.grid-right {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: auto;
+    max-width: 992px;
+    margin: auto;
+    border: 1px solid red;
+    margin-bottom: 30px;
+    padding: 15px 15px 10px 15px;
+    align-items:center;
+}
+
+.grid-left {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto;
+    max-width: 992px;
+    margin: auto;
+    border: 1px solid red;
+    margin-bottom: 30px;
+    padding: 15px 15px 10px 15px;
+    align-items:center;    
+}
+
+.foto-autor {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: darkred;
+    color: white;
+    justify-content: flex-end;
+}
